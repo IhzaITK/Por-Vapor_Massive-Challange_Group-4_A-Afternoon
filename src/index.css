@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar-fixed {
+  @apply fixed z-[9999] bg-white bg-opacity-70;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-dark;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
+
+.list-nav {
+  @apply text-base text-dark py-2 mx-8 flex justify-center group-hover:text-pink;
+}
+
+.icon {
+  @apply w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-pink hover:bg-pink hover:text-white;
+}
+
+.card-items {
+  @apply w-36 h-40 px-4 bg-white text-center rounded-xl mb-10 max-w-md mx-auto md:w-52 md:h-64 lg:w-64 lg:h-72;
+}
+
+.card-img {
+  @apply w-24 h-24 mb-2 mx-auto md:w-40 md:h-44 md:mt-2 md:mb-0 lg:w-56 lg:h-52;
+}
+
+.card-title {
+  @apply text-[8px] md:text-[10px] lg:text-sm mt-2;
+}
+
+.card-bintang {
+  @apply w-20 mx-auto;
+}
+.card-p {
+  @apply font-bold text-xs ;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
