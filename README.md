@@ -25,6 +25,9 @@ change your link in the browser
 example : 
 localhost:8888 to localhost:8888/app
 
+or if you want only the front end you can access this link
+https://github.com/vmonreve/vapor
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
