@@ -1,5 +1,20 @@
 # React + Vite
 
+Por-Vapor Project Massive Challange Group 4 A Afternoon
+
+How to Install : 
+
+Backend :
+
+cd/backend
+npm install
+npm start
+
+Frontend : 
+
+npm install
+npm run dev
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
