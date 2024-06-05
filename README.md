@@ -15,6 +15,16 @@ Frontend :
 npm install
 npm run dev
 
+This is still on going project not a complete project:
+
+how to access few front end that inaccesible when clicking
+
+go to file main.jsx
+you can find route link to the inaccesible pages
+change your link in the browser
+example : 
+localhost:8888 to localhost:8888/app
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
